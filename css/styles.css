@@ -6,6 +6,11 @@ html{
 
 h1, h6 {
     font-family: 'Mulish', sans-serif;
-    font-size: 30px;
 }
 
+.jumbotron-fluid{
+    background-image: url(/images/Background/h_img.jpg);
+    background-size: cover;
+    height: auto;
+    width: auto;
+}
