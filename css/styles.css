@@ -65,3 +65,9 @@ p{
 }
 
 /* /About Us */
+
+/* Services */
+.services{
+    background-image: url(/images/Background/s_image.jpg);
+}
+/* /Services */
