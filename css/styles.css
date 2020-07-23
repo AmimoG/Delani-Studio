@@ -28,3 +28,27 @@ h1, h6 {
     height: 668px;
     width: auto;
 }
+
+.container{
+    position: relative;
+    bottom: 10px;
+    width: 50%;
+    top: 30%;
+}
+
+.click {
+    margin-top: 150px;
+}
+
+#bounce {
+    animation: bounce 3s infinite;
+}
+
+@keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-50px);
+    }
+}
