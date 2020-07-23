@@ -69,5 +69,13 @@ p{
 /* Services */
 .services{
     background-image: url(/images/Background/s_image.jpg);
+    width: auto;
+    height: 300px;
+}
+
+.overlay{
+    position: relative;
+    top: 30px;
+    margin-bottom: 20px;
 }
 /* /Services */
