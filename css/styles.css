@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Open+Sans+Condensed:wght@300&family=Raleway:wght@100&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -11,6 +25,6 @@ h1, h6 {
 .jumbotron-fluid{
     background-image: url(/images/Background/h_img.jpg);
     background-size: cover;
-    height: auto;
+    height: 668px;
     width: auto;
 }
