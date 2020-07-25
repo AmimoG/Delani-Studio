@@ -13,18 +13,18 @@ $(function () {
     //Show paragraph content
     $('.des').on('click', function () {
         $('.des').slideUp('slow');
-        $(desp).show(500);
+        $(desp).show(1000);
         $(destext).animate({fontWeight:'bolder',fontSize:'30px'})
 
     });
     $('.dev').on('click', function () {
         $('.dev').slideUp('slow');
-        $(devp).show(500);
+        $(devp).show(1000);
         $(devtext).animate({fontWeight:'bolder',fontSize:'30px'})
     });
     $('.pro').on('click', function () {
         $('.pro').slideUp('slow');
-        $(prop).show(500);
+        $(prop).show(1000);
         $(protext).animate({fontWeight:'bolder',fontSize:'30px'})
     });
 
@@ -46,20 +46,20 @@ $(function () {
     // })
 
     $('.des').on('click', function () {
-        $('.des').slideDown('slow');
+        $('.des').toggle('slow');
         $(desp).hide(500);
-        $(destext).animate({fontWeight:'bolder',fontSize:'30px'})
+        $(destext).animate({fontWeight:'bolder',fontSize:'16px'})
 
     });
     $('.dev').on('click', function () {
-        $('.dev').slideDown('slow');
+        $('.dev').toggle('slow');
         $(devp).hide(500);
-        $(devtext).animate({fontWeight:'bolder',fontSize:'30px'})
+        $(devtext).animate({fontWeight:'bolder',fontSize:'16px'})
     });
     $('.pro').on('click', function () {
-        $('.pro').slideDown('slow');
+        $('.pro').toggle('slow');
         $(prop).hide(500);
-        $(protext).animate({fontWeight:'bolder',fontSize:'30px'})
+        $(protext).animate({fontWeight:'bolder',fontSize:'16px'})
     });
 
     //Overlay images
