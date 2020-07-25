@@ -10,6 +10,19 @@ $(function () {
     $(devp).hide();
     $(prop).hide();
 
+    $(".des").click(function(){
+        $(".destest").toggle();
+        $(".desp").toggle();
+    });
+    $(".dev").click(function(){
+        $(".devtext").toggle();
+        $(".devp").toggle();
+    });
+    $(".pro").click(function(){
+        $(".protext").toggle();
+        $(".prop").toggle();
+    });
+
     //Show paragraph content
     $('.des').on('click', function () {
         $('.des').slideUp('slow');
@@ -29,38 +42,38 @@ $(function () {
     });
 
     //Hide paragraph content
-    // $(desp, destext).on('click', function () {
-    //     $('.des').slideDown();
-    //     $(desp).hide(500);
-    //     $(destext).animate({fontWeight:'normal',fontSize:'16px'})
-    // });
-    // $(devp, devtext).on('click', function () {
-    //     $('.dev').slideDown();
-    //     $(devp).hide(500);
-    //     $(devtext).animate({fontWeight:'normal',fontSize:'16px'})
-    // });
-    // $(prop, protext).on('click', function () {
-    //     $('.pro').slideDown();
-    //     $(prop).hide(500);
-    //     $(protext).animate({fontWeight:'normal',fontSize:'16px'})
-    // })
-
-    $('.des').on('click', function () {
-        $('.des').toggle('slow');
+    $(desp, destext).on('click', function () {
+        $('.des').slideDown();
         $(desp).hide(500);
-        $(destext).animate({fontWeight:'bolder',fontSize:'16px'})
-
+        $(destext).animate({fontWeight:'normal',fontSize:'16px'})
     });
-    $('.dev').on('click', function () {
-        $('.dev').toggle('slow');
+    $(devp, devtext).on('click', function () {
+        $('.dev').slideDown();
         $(devp).hide(500);
-        $(devtext).animate({fontWeight:'bolder',fontSize:'16px'})
+        $(devtext).animate({fontWeight:'normal',fontSize:'16px'})
     });
-    $('.pro').on('click', function () {
-        $('.pro').toggle('slow');
+    $(prop, protext).on('click', function () {
+        $('.pro').slideDown();
         $(prop).hide(500);
-        $(protext).animate({fontWeight:'bolder',fontSize:'16px'})
-    });
+        $(protext).animate({fontWeight:'normal',fontSize:'16px'})
+    })
+
+    // $('.des').on('click', function () {
+    //     $('.des').toggle('slow');
+    //     $(desp).hide(500);
+    //     $(destext).animate({fontWeight:'bolder',fontSize:'16px'})
+
+    // });
+    // $('.dev').on('click', function () {
+    //     $('.dev').toggle('slow');
+    //     $(devp).hide(500);
+    //     $(devtext).animate({fontWeight:'bolder',fontSize:'16px'})
+    // });
+    // $('.pro').on('click', function () {
+    //     $('.pro').toggle('slow');
+    //     $(prop).hide(500);
+    //     $(protext).animate({fontWeight:'bolder',fontSize:'16px'})
+    // });
 
     //Overlay images
 
