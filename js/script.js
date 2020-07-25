@@ -29,21 +29,38 @@ $(function () {
     });
 
     //Hide paragraph content
-    $(desp, destext).on('click', function () {
-        $('.des').slideDown();
+    // $(desp, destext).on('click', function () {
+    //     $('.des').slideDown();
+    //     $(desp).hide(500);
+    //     $(destext).animate({fontWeight:'normal',fontSize:'16px'})
+    // });
+    // $(devp, devtext).on('click', function () {
+    //     $('.dev').slideDown();
+    //     $(devp).hide(500);
+    //     $(devtext).animate({fontWeight:'normal',fontSize:'16px'})
+    // });
+    // $(prop, protext).on('click', function () {
+    //     $('.pro').slideDown();
+    //     $(prop).hide(500);
+    //     $(protext).animate({fontWeight:'normal',fontSize:'16px'})
+    // })
+
+    $('.des').on('click', function () {
+        $('.des').slideDown('slow');
         $(desp).hide(500);
-        $(destext).animate({fontWeight:'normal',fontSize:'16px'})
+        $(destext).animate({fontWeight:'bolder',fontSize:'30px'})
+
     });
-    $(devp, devtext).on('click', function () {
-        $('.dev').slideDown();
+    $('.dev').on('click', function () {
+        $('.dev').slideDown('slow');
         $(devp).hide(500);
-        $(devtext).animate({fontWeight:'normal',fontSize:'16px'})
+        $(devtext).animate({fontWeight:'bolder',fontSize:'30px'})
     });
-    $(prop, protext).on('click', function () {
-        $('.pro').slideDown();
+    $('.pro').on('click', function () {
+        $('.pro').slideDown('slow');
         $(prop).hide(500);
-        $(protext).animate({fontWeight:'normal',fontSize:'16px'})
-    })
+        $(protext).animate({fontWeight:'bolder',fontSize:'30px'})
+    });
 
     //Overlay images
 
