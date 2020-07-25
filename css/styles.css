@@ -78,3 +78,47 @@ p{
     margin-bottom: 20px;
 }
 /* /Services */
+
+/* Contact Us */
+.contacts {
+    background-image: url(../images/c_image.jpg);
+    background-size: cover;
+}
+
+.contacts h1 {
+    position: relative;
+    top: 30px;
+}
+.text{
+    margin-bottom: 20px;
+}
+
+.contact-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.form-control{
+    background-color: #66000000;
+    color: white;
+}
+.input{
+    margin-top: 30px;
+}
+.b-text{
+    font-family: 'Comfortaa', cursive;
+}
+.m-text{
+    font-family: 'Raleway', sans-serif;
+}
+.name{
+    margin-right: 5px;
+}
+input.error {
+    border: 1px dashed red;
+    font-weight: 300;
+    color: red;
+}
+.email{
+    margin-right: 5px;
+}
+/* /Contact Us */
