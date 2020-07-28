@@ -114,6 +114,12 @@ figcaption{
 .b-text{
     font-family: 'Mulish', sans-serif;
     text-align: center;
+    display: none;
+}
+
+h6{
+    text-align: center;
+    font-weight: bold;
 }
 
 /* Portfolio */
